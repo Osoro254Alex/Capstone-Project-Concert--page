@@ -3,7 +3,7 @@
 This project is about Microverse which is an online Platform which provides Software Development Course. It was founded by Ariel Camus in 2017 , who is the CEO and Founder of Microverse located in San Francisco, California.
 This project is a part of my Microverse curriculum. This is made as Final Project (Capstone), of 1st Module at Microverse in order to attract job opportunities. The main objective is to develop a professional website which showcase my professional skills and also will meet the requirements of a client and be able to meet deadlines.
 
-![](https://www.loom.com/share/1d83f49e01d0419f9f48e607c0dd8d93)
+https://www.loom.com/share/1d83f49e01d0419f9f48e607c0dd8d93
 #### Original design idea by **Cindy Shin in Behance**, in association with the Creative Commons [license](./MIT.md) of the design.
 <br />
 
