@@ -1,9 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Capstone-Project-Concert--page
+This project is about Microverse which is an online Platform which provides Software Development Course. It was founded by Ariel Camus in 2017 , who is the CEO and Founder of Microverse located in San Francisco, California.
+This project is a part of my Microverse curriculum. This is made as Final Project (Capstone), of 1st Module at Microverse in order to attract job opportunities. The main objective is to develop a professional website which showcase my professional skills and also will meet the requirements of a client and be able to meet deadlines.
+
+![](https://www.loom.com/share/1d83f49e01d0419f9f48e607c0dd8d93)
+#### Original design idea by **Cindy Shin in Behance**, in association with the Creative Commons [license](./MIT.md) of the design.
+<br />
 
 # Project Screenshot image
-![]()
+![](./images/Screenshot%20(231).png)
 
 ## Link to the live page
 
@@ -46,8 +51,10 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- I would like to give Credit to [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), as required by the [Creative Commons License](https://creativecommons.org/licenses/).
+- This project is part of Capstone week of module 1 in the Microverse study program.
+- Thanks to the Microverse team for the great curriculum.
+- A great thanks to My coding partners, morning session team, and standup team Partners for their contributions.
 
 ## 📝 License
 
