@@ -909,7 +909,7 @@ footer .foot-last h2 span {
   }
 
   footer .foot-last h2 span {
-    width: 50px;
+    /* width: 50px; */
     height: 50px;
     border: 3px solid var(--color-white);
     border-radius: 90px;
@@ -920,6 +920,7 @@ footer .foot-last h2 span {
     align-self: center;
     font-size: 28px;
     padding-bottom: 1px;
+    width: 50px;
   }
 
   footer .last-abt {
