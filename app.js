@@ -5,17 +5,13 @@ const allCloseMenu = document.querySelectorAll(".links");
 
 
 menuIcon.addEventListener("click", (e) =>{
-  // e.preventDefault()
   if(e.target.classList.contains("menu")){
-      console.log(true)
-      //  phoneMenuList.style.display = "none";
        phoneMenuList.style.display = "flex";
        menuIcon.style.display = "none"
   }
 })
 
 phoneMenuList.addEventListener("click", (e)=>{
-  // e.preventDefault()
   let clicked = e.target.classList.contains("links");
   if(clicked){
     phoneMenuList.style.display = "none";
