@@ -40,6 +40,10 @@ li img {
   justify-content: flex-start;
 }
 
+.microo a {
+  color: var(--color-white);
+}
+
 .header .nav1 {
   display: none;
 }
@@ -122,7 +126,7 @@ footer .foot-1 ul {
 }
 
 .sec1 {
-  padding-top: 16px;
+  padding: 16px;
   background: linear-gradient(rgba(245, 244, 244, 0.9882352941), rgba(254, 255, 255, 0.9)), url(/images/background-image1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -142,9 +146,10 @@ footer .foot-1 ul {
   width: 90%;
   color: var(--color-secondaryDeep);
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 2.5rem;
   letter-spacing: 0.2rem;
   margin: 8px;
+  padding: 1rem 0 2.5rem 0;
 }
 
 .para2 {
@@ -152,12 +157,13 @@ footer .foot-1 ul {
   line-height: 1.5rem;
   margin-top: 30px;
   font-weight: 500;
+  padding-bottom: 2rem;
 }
 
 .year {
   color: var(--color-lightblack);
-  font-size: 18px;
-  margin-top: 30px;
+  font-size: 24px;
+  margin-top: 1.5rem;
 }
 
 .differ {
@@ -172,7 +178,7 @@ footer .foot-1 ul {
   color: var(--color-white);
   display: flex;
   flex-direction: column;
-  padding: 25px 10px;
+  padding: 30px 20px;
 }
 
 .sec2 .parr {
@@ -181,6 +187,7 @@ footer .foot-1 ul {
 
 .sec-2-title {
   align-self: center;
+  font-size: 35px;
 }
 
 .line {
@@ -244,7 +251,7 @@ footer .foot-1 ul {
 }
 
 .sec3 {
-  padding: 25px 10px;
+  padding: 25px 20px;
   display: flex;
   flex-direction: column;
 }
@@ -304,6 +311,7 @@ footer .foot-last h3 small {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 30px;
 }
 
 .about .about-sec1 p a {
@@ -316,89 +324,19 @@ footer .foot-last h3 small {
 
 .about .about-sec1 .about-title {
   color: var(--color-lightblack);
-  font-size: 24px;
+  font-size: 35px;
   padding-top: 30px;
 }
 
-.about .about-sec1 .logo {
+.about .about-sec1 .logo img {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 100%;
-  margin: 30px 0;
-}
-
-.about .about-sec1 .logo .logo-build {
-  position: relative;
-  left: 2%;
-  width: 90px;
-  height: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  align-self: center;
-}
-
-.about .about-sec1 .logo .logo-build .logo-design {
-  align-self: center;
-  width: 40px;
-  height: 40px;
-  border: 4px solid rgb(226, 34, 12);
-  font-size: 30px;
-  border-radius: 30px;
-  padding: 25px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 17%;
-  z-index: -7;
-  opacity: 0.5;
-  color: var(--color-lightblack);
-}
-
-.about .about-sec1 .logo div h3 {
-  font-size: 10px;
-  color: rgba(39, 42, 49, 0.8);
-  border-top: 2px dashed rgba(39, 42, 49, 0.4);
-  border-bottom: 2px dashed rgba(39, 42, 49, 0.4);
-}
-
-.about .about-sec1 .logo .logo-build h3 {
-  position: absolute;
-  font-size: 8px;
-  bottom: 38%;
-  z-index: 7;
-  right: 0;
-  color: var(--color-black);
-}
-
-.about .about-sec1 .logo .logo-build .icon1 {
-  position: absolute;
-  z-index: 10;
-  left: 0%;
-  top: 35%;
-  font-size: 20px;
-  transform: rotate(38deg);
-  color: var(--color-secondary);
-}
-
-.about .about-sec1 .logo .logo-build .icon2 {
-  position: absolute;
-  z-index: 10;
-  right: 13%;
-  top: 10%;
-  font-size: 20px;
-  color: rgba(226, 34, 12, 0.5);
-}
-
-.about .about-sec1 .logo div {
-  position: relative;
-  left: -3%;
+  width: 8rem;
+  height: 5rem;
+  margin: 50px 0;
 }
 
 footer .foot-last h2 {
@@ -406,20 +344,14 @@ footer .foot-last h2 {
   width: 60%;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 24px;
   padding: 30px 0;
-}
-
-.about .about-sec1 .logo div h2 {
-  width: 160px;
-  padding-top: 15px;
-  font-weight: bolder;
 }
 
 .about .about-sec1 .mini-about {
   color: var(--color-lightblack);
-  font-size: 18px;
-  margin-top: 20px;
+  font-size: 35px;
+  margin-top: 40px;
 }
 
 .about .about-sec1 .images-about {
@@ -814,7 +746,7 @@ footer .foot-last h2 span {
 
   .sec3 .speakers .guest img {
     width: 50%;
-    height: 100%;
+    height: 9rem;
   }
 
   .about .about-sec1 .logo img {
@@ -873,8 +805,8 @@ footer .foot-last h2 span {
 
   .about .about-sec1 .about-title {
     color: var(--color-lightblack);
-    font-size: 24px;
-    padding-top: 30px;
+    font-size: 50px;
+    padding: 7rem 0 3rem 0;
   }
 
   .about .about-sec1 .logo {
@@ -884,17 +816,17 @@ footer .foot-last h2 span {
     justify-content: center;
     text-align: center;
     width: 100%;
-    margin: 40px 0;
+    margin: 5rem 0 6.5rem 0;
   }
 
   .about .about-sec1 .mini-about {
     color: var(--color-lightblack);
-    font-size: 18px;
+    font-size: 50px;
     margin-top: 20px;
   }
 
   .about .about-sec1 .images-about {
-    padding-top: 30px;
+    padding-top: 20px;
     margin: 4rem;
     display: flex;
     flex-direction: row;
@@ -979,7 +911,7 @@ footer .foot-last h2 span {
   footer .foot-last h2 span {
     width: 50px;
     height: 50px;
-    border: 3px solid var(--color-lightblack);
+    border: 3px solid var(--color-white);
     border-radius: 90px;
     display: flex;
     align-items: center;
