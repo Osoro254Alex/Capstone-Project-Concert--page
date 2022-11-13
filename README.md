@@ -12,7 +12,7 @@ https://www.loom.com/share/1d83f49e01d0419f9f48e607c0dd8d93
 
 ## Link to the live page
 
-> Feel free to check the [Portfolio-link](https://github.com/Osoro254Alex/Capstone-Project-Concert--page).
+> Feel free to check the [Portfolio-link](https://osoro254alex.github.io/Capstone-Project-Concert--page/).
 
 ## Getting Started
 
